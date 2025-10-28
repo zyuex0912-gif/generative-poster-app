@@ -88,6 +88,3 @@ if st.button("✨ Generate Poster"):
         mime="image/png"
     )
     plt.close(fig)
-
-st.markdown("---")
-st.markdown("Developed for **Generative Media Art — Week 4** | Demonstrating *depth cues, transparency & layering*.")

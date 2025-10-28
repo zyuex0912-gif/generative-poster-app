@@ -80,7 +80,7 @@ def generate_poster(style=None, seed=None,
 
 # --- Streamlit UI ---
 st.title("🎨 Generative Abstract Poster")
-st.caption("Week 9 • Arts & Advanced Big Data")
+st.caption("Week 3 • Arts & Advanced Big Data")
 
 col1, col2, col3 = st.columns(3)
 with col1:

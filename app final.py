@@ -121,8 +121,7 @@ def draw_poster(n_layers=8, wobble=0.15, palette_mode="pastel", seed=0):
 # 5. Streamlit 界面
 # ----------------------------------------------------------
 st.set_page_config(page_title="Ocean Wave Poster", layout="centered")
-st.title("🌊 Generative Ocean Wave Poster")
-st.write("An interactive generative art experiment inspired by ocean waves.")
+st.title("Generative Poster")
 
 # Sidebar controls
 with st.sidebar:

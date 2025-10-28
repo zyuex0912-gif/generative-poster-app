@@ -117,6 +117,3 @@ st.download_button(
     file_name=f"poster_{palette_mode}_seed{seed}.png",
     mime="image/png"
 )
-
-st.markdown("---")
-st.markdown("Developed for **Arts & Advanced Big Data • Week 5** — Demonstrating color harmony, reproducibility, and visual softness.")

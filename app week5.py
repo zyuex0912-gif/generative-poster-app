@@ -94,7 +94,6 @@ def draw_poster(n_layers=8, wobble=0.15, palette_mode="pastel", seed=0):
 
 # --- Streamlit Interface ---
 st.title("🎨 Interactive Generative Poster")
-st.caption("Create reproducible generative art with custom palettes.")
 
 # Sidebar controls
 st.sidebar.header("🎛 Settings")

@@ -86,7 +86,7 @@ def draw_poster(n_layers=8, wobble=0.15, palette_mode="pastel", seed=0):
 
     ax.text(0.05, 0.95, f"Generative Poster • {palette_mode}",
             transform=ax.transAxes, fontsize=13, weight="bold")
-    ax.text(0.05, 0.91, "Week 9 • Arts & Advanced Big Data",
+    ax.text(0.05, 0.91, "Week 5 • Arts & Advanced Big Data",
             transform=ax.transAxes, fontsize=10)
     ax.set_xlim(0, 1)
     ax.set_ylim(0, 1)
@@ -120,4 +120,4 @@ st.download_button(
 )
 
 st.markdown("---")
-st.markdown("Developed for **Arts & Advanced Big Data • Week 9** — Demonstrating color harmony, reproducibility, and visual softness.")
+st.markdown("Developed for **Arts & Advanced Big Data • Week 5** — Demonstrating color harmony, reproducibility, and visual softness.")

@@ -73,7 +73,7 @@ def generate_poster(style=None, seed=None,
     # Label
     ax.text(0.05, 0.95, f"Generative Poster • {style or 'Custom'}",
             fontsize=16, weight='bold', transform=ax.transAxes)
-    ax.text(0.05, 0.91, "Week 9 • Arts & Advanced Big Data",
+    ax.text(0.05, 0.91, "Week 3 • Arts & Advanced Big Data",
             fontsize=11, transform=ax.transAxes)
     ax.set_xlim(0,1); ax.set_ylim(0,1)
     return fig
